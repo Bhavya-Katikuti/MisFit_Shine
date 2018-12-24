@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BeautyTips">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+              <ImageView
+                  android:layout_width="@dimen/beautytipimg_width"
+                  android:layout_height="@dimen/beautytipimg_height"
+                  android:layout_margin="@dimen/beautyimg_margintop"
+                  android:contentDescription="@string/face_tips"
+                  android:onClick="facetips"
+                  android:src="@drawable/tipsface"/>
+
+            <ImageView
+                android:layout_width="@dimen/beautytipimg_width"
+                android:layout_height="@dimen/beautytipimg_height"
+                android:layout_margin="@dimen/beautyimg_margintop"
+                android:contentDescription="@string/lips_tips"
+                android:onClick="lipstips"
+                android:src="@drawable/lipstips"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="@dimen/beautytipimg_width"
+                android:layout_height="@dimen/beautytipimg_height"
+                android:layout_margin="@dimen/beautyimg_margintop"
+                android:contentDescription="@string/neck_tips"
+                android:onClick="necktips"
+                android:src="@drawable/necktips"/>
+
+            <ImageView
+                android:layout_width="@dimen/beautytipimg_width"
+                android:layout_height="@dimen/beautytipimg_height"
+                android:layout_margin="@dimen/beautyimg_margintop"
+                android:contentDescription="@string/hair_tips"
+                android:onClick="hairtips"
+                android:src="@drawable/hairtips"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="@dimen/beautytipimg_width"
+                android:layout_height="@dimen/beautytipimg_height"
+                android:layout_margin="@dimen/beautyimg_margintop"
+                android:contentDescription="@string/hands_tips"
+                android:onClick="handstips"
+                android:src="@drawable/handstips"/>
+
+            <ImageView
+                android:layout_width="@dimen/beautytipimg_width"
+                android:layout_height="@dimen/beautytipimg_height"
+                android:layout_margin="@dimen/beautyimg_margintop"
+                android:contentDescription="@string/feet_tips"
+                android:onClick="feettips"
+                android:src="@drawable/feettips"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

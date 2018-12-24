@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_marginTop="@dimen/activity_vertical_margin"
+       tools:context=".HomeFragment">
+
+       <com.daimajia.slider.library.SliderLayout
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/slider_height"
+           android:id="@+id/slider"
+           android:layout_margin="@dimen/slider_margin">
+
+       </com.daimajia.slider.library.SliderLayout>
+
+       <RelativeLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="@dimen/relative_margintop"
+           android:elevation="@dimen/relative_elevation">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="@dimen/relative_marginleft"
+                   android:layout_marginRight="@dimen/relative_marginleft"
+                   android:layout_marginBottom="@dimen/relative_marginleft"
+                   android:textSize="@dimen/proTextsize"
+                   android:id="@+id/beautyview"
+                   android:padding="@dimen/textview_padding"
+                   android:textStyle="bold|italic"
+                   android:background="@drawable/my_border"
+                   android:text="@string/beauty_text"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="@dimen/relative_marginleft"
+                   android:layout_marginRight="@dimen/relative_marginleft"
+                   android:layout_marginBottom="@dimen/relative_marginleft"
+                   android:textSize="@dimen/proTextsize"
+                   android:id="@+id/bview"
+                   android:padding="@dimen/textview_padding"
+                   android:textStyle="bold|italic"
+                   android:background="@drawable/my_border"
+                   android:text="@string/beauty_text2"/>
+           </LinearLayout>
+
+
+       </RelativeLayout>
+
+   </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProductSearch">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textSize="24sp"
+        android:layout_marginTop="@dimen/twenty"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center"
+        android:text="@string/search_product_by_brand_and_type"/>
+
+    <Spinner
+        android:layout_width="@dimen/threehund"
+        android:layout_height="@dimen/fifty"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/fifty"
+        android:entries="@array/products"
+        android:id="@+id/nice_spinner_product"/>
+
+    <Spinner
+        android:layout_width="@dimen/threehund"
+        android:layout_height="@dimen/fifty"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/fifty"
+        android:id="@+id/nice_spinner_brand"
+        android:entries="@array/brand"/>
+
+    <Button
+        android:layout_width="@dimen/twohun"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/search"
+        android:onClick="performSearch"
+        android:layout_marginTop="@dimen/twenty"
+        />
+
+
+</LinearLayout>

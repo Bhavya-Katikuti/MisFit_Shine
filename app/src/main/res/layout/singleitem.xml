@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/card_cornerradius"
+    app:cardElevation="@dimen/card_elevation"
+    android:layout_marginTop="@dimen/card_martop"
+    android:layout_marginLeft="@dimen/card_margleft"
+    android:layout_marginBottom="@dimen/card_margleft"
+    android:layout_marginRight="@dimen/card_margleft">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/img_width"
+            android:layout_height="@dimen/img_width"
+            android:layout_margin="@dimen/img_margin"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageView"
+            android:contentDescription="@string/productimage"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/twentyfive"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/productName"
+                android:textSize="@dimen/proTextsize"
+                android:hint="@string/display_product_name_here"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/productPrice"
+                android:layout_marginTop="@dimen/propricemartop"
+                android:textSize="@dimen/propricetextsize"
+                android:hint="@string/display_product_price_here"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

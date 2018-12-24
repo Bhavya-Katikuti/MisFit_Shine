@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "283777906271",
+    "firebase_url": "https://misfitshine-d4637.firebaseio.com",
+    "project_id": "misfitshine-d4637",
+    "storage_bucket": "misfitshine-d4637.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283777906271:android:9861f874608dd271",
+        "android_client_info": {
+          "package_name": "com.example.mechsrit.misfit_shine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283777906271-8hqi9gn09dfn4m58hupspo4hr4bgauuu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mechsrit.misfit_shine",
+            "certificate_hash": "84dd61d5310e62cd21d3c634348411c04adffc9a"
+          }
+        },
+        {
+          "client_id": "283777906271-e3gca8b1ub1a59m731sq691u0gv9k4ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFziwJdPuB6leH_yIVx1TUaDJZod89kF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283777906271-e3gca8b1ub1a59m731sq691u0gv9k4ps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

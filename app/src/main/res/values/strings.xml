@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">MisFit_Shine</string>
+    <string name="nav_header_des">Navigation Header</string>
+    <string name="nav_header_title">MisFit Shine</string>
+    <string name="nav_header_subtitle">beautyproducts@android.com</string>
+    <string name="menu_item_home">Home</string>
+    <string name="menu_item_aboutapp">About App</string>
+    <string name="menu_item_search">Search For Products</string>
+    <string name="menu_item_beautytips">Beauty Tips</string>
+    <string name="menu_item_favproduct">Favorite Products</string>
+    <string name="menu_item_feedback">FeedBack</string>
+    <string name="menu_item_logout">Logout</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">This app will makes you to know about beauty prodcuts that are available for women.
+</string>
+    <string name="beauty_text">Life is full of beauty. Notice it. Notice the bumble bee, the small child, and the smiling faces. Smell the rain, and feel the wind. Live your life to the fullest potential, and fight for your dreams</string>
+    <string name="beauty_text2">The beauty of a woman must be seen from in her eyes, because that is the doorway to her heart, the place where love resides.</string>
+
+
+    <string-array name="brand">
+        <item>--Select Brand--</item>
+        <item>almay</item>
+        <item>anna sui</item>
+        <item>covergirl</item>
+        <item>iman</item>
+        <item>marcelle</item>
+        <item>revlon</item>
+        <item>pacifica</item>
+        <item>smashbox</item>
+        <item>clinique</item>
+        <item>marienatie</item>
+        <item>nyx</item>
+        <item>pure anada</item>
+        <item>mineral fusion</item>
+
+
+    </string-array>
+
+    <string-array name="products">
+        <item>--Select Product</item>
+        <item>Blush</item>
+        <item>Bronzer</item>
+        <item>Eyeliner</item>
+        <item>Eyeshadow</item>
+        <item>Foundation</item>
+        <item>Lipstick</item>
+        <item>Mascara</item>
+        <item>Nail polish</item>
+    </string-array>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="signinbutton_text">Signin</string>
+    <string name="network_title">No Network Connection</string>
+    <string name="network_msg">Please check your Network</string>
+    <string name="network_positive">OK</string>
+    <string name="feedbackToast">Feedback store Sucessfully</string>
+    <string name="feetYoutubeLink">https://www.youtube.com/watch?v=ax5zdFMaY-g</string>
+    <string name="handYouLink">https://www.youtube.com/watch?v=yZn3J9dOl5s</string>
+    <string name="hairYouLink">https://www.youtube.com/watch?v=GB0YFrSc0nE</string>
+    <string name="neckYouLink">https://www.youtube.com/watch?v=PX3cBHI-5CI</string>
+    <string name="lipsYouLink">https://www.youtube.com/watch?v=cBDD7qVdnOk</string>
+    <string name="faceYouLink">https://www.youtube.com/watch?v=UnILoclERQE</string>
+    <string name="no_fav_avail">No Favourites Available</string>
+    <string name="imgSlide1">Beauty</string>
+    <string name="imgSlide2">Beauty Products</string>
+    <string name="imgSlide3">Bridal Makeup</string>
+    <string name="imgSlide4">Creams</string>
+    <string name="imgSlide5">LipSticks</string>
+    <string name="imgSlide6">Eye Shadows</string>
+    <string name="imgSlide7">MakeUp Brushes</string>
+    <string name="imgSlide8">Cosmetics</string>
+    <string name="imgSlide9">MakeUp Kits</string>
+    <string name="ex">extra</string>
+    <string name="sign_in_det">signindetails</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="fail_msg">Failure In Logging In!</string>
+    <string name="success_msg">Signed In Successfully</string>
+    <string name="sign_fail">signInWithCredential:failure</string>
+    <string name="insert_msg_success">Data inserted successfully</string>
+    <string name="del_data_msg">Data Deleted successfully</string>
+    <string name="prod_not_avail">No Products Available in this Brand</string>
+    <string name="click_ok">If you want to search in another brand please click on ok</string>
+    <string name="pos_but">OK</string>
+    <string name="not_avail_prod">Selected Product is not available from Selected Brand</string>
+    <string name="load_plz_wait">Loading Please Wait....</string>
+    <string name="product_image">Product Image</string>
+    <string name="display_name_here">Display Name Here</string>
+    <string name="id">ID:</string>
+    <string name="display_id_here">Display ID Here</string>
+    <string name="brand">Brand:</string>
+    <string name="display_brand_here">Display Brand Here</string>
+    <string name="display_price_here">Display Price Here</string>
+    <string name="price">Price:</string>
+    <string name="description">Description:</string>
+    <string name="display_description_here">Display Description Here</string>
+    <string name="category">Category:</string>
+    <string name="display_category_here">Display Category Here</string>
+    <string name="weblink">Weblink:</string>
+    <string name="display_weblink_here">Display Weblink Here</string>
+    <string name="product_link">Product Link:</string>
+    <string name="display_product_link_here">Display Product Link Here</string>
+    <string name="rating">Rating:</string>
+    <string name="display_rating_here">Display Rating Here</string>
+    <string name="product_type">Product Type:</string>
+    <string name="display_product_here">Display Product Here</string>
+    <string name="search_product_by_brand_and_type">Search Product by Brand and Type</string>
+    <string name="search">Search</string>
+    <string name="submit">Submit</string>
+    <string name="enter_your_feedback">Enter your feedback</string>
+    <string name="productimage">productImage</string>
+    <string name="display_product_name_here">Display Product Name Here</string>
+    <string name="display_product_price_here">Display product price here</string>
+    <string name="face_tips">Face Tips</string>
+    <string name="lips_tips">Lips Tips</string>
+    <string name="neck_tips">Neck Tips</string>
+    <string name="hair_tips">Hair Tips</string>
+    <string name="hands_tips">Hands Tips</string>
+    <string name="feet_tips">Feet Tips</string>
+</resources>
